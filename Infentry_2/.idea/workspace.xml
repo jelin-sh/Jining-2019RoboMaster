@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Infentery" targetName="UPLOAD" />
+      <config projectName="Infentery" targetName="Infentery.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a1ed79e8-ed4a-441a-a5e5-ad6acd60fa37" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="clangWarnings" value="-Wno-unused-variable,-Werror=implicit-function-declaration,-Wshadow,-Wno-shadow-field-in-constructor-modified,-Wno-shadow-ivar,-Wno-writable-strings" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FavoritesManager">
+    <favorites_list name="Infentery" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/ChassisControlUnit/ChassisControlUnit.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+              <folding>
+                <element signature="e#48#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/HolderControlUnit/HolderControlUnit.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/HolderControlUnit/HolderControlUnit.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="214" column="24" selection-start-line="214" selection-start-column="24" selection-end-line="214" selection-end-column="24" />
+              <folding>
+                <element signature="e#48#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/ChassisControlUnit/ChassisControlUnit.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>printDriver</find>
+      <find>memcpy</find>
+      <find>Driver is offline</find>
+      <find>tim8</find>
+      <find>pwmTrigger</find>
+      <find>htim10</find>
+      <find>UART6</find>
+      <find>huart6</find>
+      <find>str</find>
+      <find>println</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>shootMotor</replace>
+      <replace>UART8</replace>
+      <replace>huart8</replace>
+      <replace>pcTxBuf</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Middlewares/stm32plus/uart/uart.h" />
+        <option value="$PROJECT_DIR$/Middlewares/stm32plus/uart/uart.cpp" />
+        <option value="$PROJECT_DIR$/Drivers/Bluetooth/BlueTooth.cpp" />
+        <option value="$PROJECT_DIR$/User/Src/CanListenerTask.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/CanBusManager/CanBusManger.h" />
+        <option value="$PROJECT_DIR$/Middlewares/Arithmetic/KalmanFilter/Kalman.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/Arithmetic/PID/PID.cpp" />
+        <option value="$PROJECT_DIR$/Drivers/Motor/C6010/C6010.h" />
+        <option value="$PROJECT_DIR$/Drivers/Motor/C6010/C6010.cpp" />
+        <option value="$PROJECT_DIR$/User/Src/AttitudeListenner.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/AttitudeListenner/AttitudeListener.h" />
+        <option value="$PROJECT_DIR$/User/Src/ControlTask.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists_template.txt" />
+        <option value="$PROJECT_DIR$/Middlewares/MotorControlSystem/MotorControlSystem.h" />
+        <option value="$PROJECT_DIR$/User/Src/RemoteListenerTask.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/stm32plus/uart/usartInterrupt.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/CourtSystem/CourtSystem.h" />
+        <option value="$PROJECT_DIR$/Middlewares/CourtSystem/CourtSystem.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/stm32plus/stm32plus.h" />
+        <option value="$PROJECT_DIR$/Drivers/Motor/GM6020/GM6020.cpp" />
+        <option value="$PROJECT_DIR$/Core/Inc/stm32f4xx_hal_conf.h" />
+        <option value="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" />
+        <option value="$PROJECT_DIR$/Core/Inc/usart.h" />
+        <option value="$PROJECT_DIR$/Core/Src/main.cpp" />
+        <option value="$PROJECT_DIR$/Core/Src/usart.c" />
+        <option value="$PROJECT_DIR$/Core/Src/freertos.cpp" />
+        <option value="$PROJECT_DIR$/Core/Src/freertos.c" />
+        <option value="$PROJECT_DIR$/User/Src/user_freertos.c" />
+        <option value="$PROJECT_DIR$/User/Src/user_interrupt.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Drivers/MiniPC/MiniPC.h" />
+        <option value="$PROJECT_DIR$/Middlewares/AttitudeListenner/AttitudeListener.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/stm32plus/system/pc.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/CanBusManager/CanBusManger.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/AutoMA/AutoMA.h" />
+        <option value="$PROJECT_DIR$/Core/Inc/dma.h" />
+        <option value="$PROJECT_DIR$/Drivers/MiniPC/MiniPC.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/AutoMA/AutoMA.cpp" />
+        <option value="$PROJECT_DIR$/Drivers/Remote/Remote.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/RemoteListener/RemoteListener.h" />
+        <option value="$PROJECT_DIR$/Middlewares/RemoteListener/RemoteListener.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/MotorControlSystem/MotorControlSystem.cpp" />
+        <option value="$PROJECT_DIR$/User/Src/user.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/MotorControlSystem/HolderControlUnit/HolderControlUnit.h" />
+        <option value="$PROJECT_DIR$/Middlewares/MotorControlSystem/HolderControlUnit/HolderControlUnit.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/MotorControlSystem/ShootControlUnit/ShootControlUnit.h" />
+        <option value="$PROJECT_DIR$/Middlewares/MotorControlSystem/ShootControlUnit/ShootControlUnit.cpp" />
+        <option value="$PROJECT_DIR$/Drivers/Motor/C6020/C6020.h" />
+        <option value="$PROJECT_DIR$/Drivers/Motor/C6020/C6020.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/MotorControlSystem/ChassisControlUnit/ChassisControlUnit.h" />
+        <option value="$PROJECT_DIR$/Middlewares/MotorControlSystem/ChassisControlUnit/ChassisControlUnit.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1366" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Infentery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Infentry_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.overridden" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyProject\RoboMaster_v2.0\Infentery_v2.0\Middlewares\Arithmetic\KalmanFilter" />
+      <recent name="E:\MyProject\RoboMaster_v2.0\Infentery_v2.0\Middlewares" />
+      <recent name="E:\MyProject\RoboMaster_v2.0\Infentery_v2.0\Drivers\MPU6500" />
+      <recent name="E:\MyProject\RoboMaster_v2.0\Infentery_v2.0\Drivers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MyProject\RoboMaster_v2.0\Infentery_v2.0\Middlewares\MotorControlSystem" />
+      <recent name="E:\MyProject\RoboMaster_v2.0\Infentery_v2.0\Drivers\Motor\C6020" />
+      <recent name="E:\MyProject\RoboMaster_v2.0\Infentery_v2.0\Middlewares\Arithmetic\PID" />
+      <recent name="E:\MyProject\RoboMaster_v2.0\Infentery_v2.0\Middlewares\CanBusManager\CanPort" />
+      <recent name="E:\MyProject\RoboMaster_v2.0\Infentery_v2.0\Middlewares\CanBusManager" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD Infentery">
+    <configuration name="Infentery.elf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Infentery" TARGET_NAME="Infentery.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Infentery" RUN_TARGET_NAME="Infentery.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UPLOAD" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Infentery" TARGET_NAME="UPLOAD" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Infentery.elf" />
+      <item itemvalue="CMake Application.UPLOAD" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD Infentery" />
+    </list>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1ed79e8-ed4a-441a-a5e5-ad6acd60fa37" name="Default Changelist" comment="" />
+      <created>1554534935459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554534935459</updated>
+      <workItem from="1554534937086" duration="7000" />
+      <workItem from="1554534959058" duration="215000" />
+      <workItem from="1554535235602" duration="18458000" />
+      <workItem from="1554559524502" duration="6135000" />
+      <workItem from="1554565833430" duration="32170000" />
+      <workItem from="1554629757254" duration="4616000" />
+      <workItem from="1554701198216" duration="12547000" />
+      <workItem from="1554901701632" duration="8000" />
+      <workItem from="1555377489395" duration="40042000" />
+      <workItem from="1555648764701" duration="149000" />
+      <workItem from="1556106984460" duration="26104000" />
+      <workItem from="1556351425105" duration="5000" />
+      <workItem from="1556356477787" duration="757000" />
+      <workItem from="1556436322877" duration="23202000" />
+      <workItem from="1556526194765" duration="16000" />
+      <workItem from="1556604145427" duration="35336000" />
+      <workItem from="1556801527641" duration="8218000" />
+      <workItem from="1556853274848" duration="7463000" />
+      <workItem from="1556956273792" duration="18000" />
+      <workItem from="1556975794220" duration="622000" />
+      <workItem from="1556978967847" duration="16828000" />
+      <workItem from="1556998506868" duration="4563000" />
+      <workItem from="1557058271298" duration="1214000" />
+      <workItem from="1557145212415" duration="31000" />
+      <workItem from="1557335710204" duration="946000" />
+      <workItem from="1557337566187" duration="1029000" />
+      <workItem from="1557342146419" duration="9822000" />
+      <workItem from="1557378599132" duration="1608000" />
+      <workItem from="1557380399233" duration="985000" />
+      <workItem from="1557490648663" duration="172000" />
+      <workItem from="1557985538305" duration="14057000" />
+      <workItem from="1558016003283" duration="2482000" />
+      <workItem from="1558020358783" duration="8292000" />
+      <workItem from="1558071849044" duration="8822000" />
+      <workItem from="1558104868019" duration="21933000" />
+      <workItem from="1558184906453" duration="2671000" />
+      <workItem from="1558188994571" duration="2767000" />
+      <workItem from="1558244005488" duration="2972000" />
+      <workItem from="1558274170036" duration="1471000" />
+      <workItem from="1558288431714" duration="164000" />
+      <workItem from="1558380941887" duration="3683000" />
+      <workItem from="1558430546555" duration="17000" />
+      <workItem from="1558527267848" duration="1732000" />
+      <workItem from="1558635607359" duration="33000" />
+      <workItem from="1558771978530" duration="8038000" />
+      <workItem from="1558805016619" duration="1916000" />
+      <workItem from="1558812610198" duration="290000" />
+      <workItem from="1558850391078" duration="5185000" />
+      <workItem from="1558884309815" duration="305000" />
+      <workItem from="1558887178828" duration="697000" />
+      <workItem from="1558888034805" duration="24000" />
+      <workItem from="1559007049674" duration="1433000" />
+      <workItem from="1559037683750" duration="618000" />
+      <workItem from="1559091516250" duration="67000" />
+      <workItem from="1559094585614" duration="6483000" />
+      <workItem from="1559113364043" duration="630000" />
+      <workItem from="1559116015118" duration="334000" />
+      <workItem from="1559118643708" duration="3220000" />
+      <workItem from="1559126207832" duration="764000" />
+      <workItem from="1559173520050" duration="3000" />
+      <workItem from="1559201290349" duration="339000" />
+      <workItem from="1559204330042" duration="16000" />
+      <workItem from="1559215818440" duration="884000" />
+      <workItem from="1559262585388" duration="38000" />
+      <workItem from="1559263876338" duration="40000" />
+      <workItem from="1559264713861" duration="19000" />
+      <workItem from="1559270301158" duration="14000" />
+      <workItem from="1559298861646" duration="4138000" />
+      <workItem from="1559304501956" duration="4370000" />
+      <workItem from="1559345161512" duration="2478000" />
+      <workItem from="1559367193290" duration="178000" />
+      <workItem from="1559701294188" duration="165000" />
+      <workItem from="1559701932382" duration="2054000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="369122000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1366" y="29" width="1920" height="1051" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5996732" visible="true" weight="0.16720085" />
+      <window_info id="Structure" order="1" sideWeight="0.4003268" side_tool="true" weight="0.5494506" />
+      <window_info id="Favorites" order="2" sideWeight="0.50159746" side_tool="true" weight="0.28939393" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.45757577" weight="0.3267974" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4969697" weight="0.39869282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917318" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5030303" side_tool="true" weight="0.39869282" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" sideWeight="0.47867805" weight="0.3267974" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.45530304" weight="0.3267974" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5996732" visible="true" weight="0.34772727" />
+      <window_info id="Structure" order="1" sideWeight="0.4003268" side_tool="true" weight="0.5494506" />
+      <window_info id="Favorites" order="2" sideWeight="0.50159746" side_tool="true" weight="0.28939393" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.45757577" visible="true" weight="0.3267974" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4969697" weight="0.39869282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917318" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5030303" side_tool="true" weight="0.39869282" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" sideWeight="0.47867805" weight="0.3267974" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.45530304" weight="0.3267974" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
+        <watch expression="courtRxBuf" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Core/Src/freertos.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="e#876#897#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Inc/FreeRTOSConfig.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3024" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="325" selection-start-line="325" selection-end-line="325" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/stm32plus/system/pc.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-601">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="e#52#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drivers/Motor/GM6020/GM6020.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/CanBusManager/CanBusManger.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="1327" selection-start-line="1327" selection-end-line="1327" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Src/user_freertos.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#38#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/AutoMA/AutoMA.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/Arithmetic/PID/PID.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/Arithmetic/KalmanFilter/Kalman.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/AutoMA/AutoMA.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Inc/dma.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Src/can.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Inc/can.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="42" column="30" selection-start-line="42" selection-end-line="42" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/AttitudeListenner/AttitudeListener.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#49#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="213" selection-start-line="213" selection-end-line="213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="1483" column="18" selection-start-line="1483" selection-start-column="18" selection-end-line="1483" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drivers/Remote/Remote.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/RemoteListener/RemoteListener.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/RemoteListener/RemoteListener.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2529">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Inc/tim.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/stm32plus/pwm/pwm.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drivers/MiniPC/MiniPC.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Src/usart.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3384">
+          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Src/spi.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="36" column="43" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/CanBusManager/CanTxBuf/CanTxBuf.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="1226" selection-start-line="1226" selection-end-line="1226" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="976">
+          <caret line="2889" selection-start-line="2889" selection-end-line="2889" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/stm32plus/can/can_plus.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/startup/startup_stm32f427xx.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infentery.ioc">
+      <provider selected="true" editor-type-id="IocFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drivers/Motor/C6010/C6010.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/ShootControlUnit/ShootControlUnit.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/ShootControlUnit/ShootControlUnit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Src/gpio.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Src/tim.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="98" column="46" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drivers/Motor/C6020/C6020.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="27" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drivers/Motor/C6020/C6020.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="47" column="1" selection-end-line="61" />
+          <folding>
+            <element signature="e#48#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Src/user.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="e#48#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/MotorControlSystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="101" column="13" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="13" />
+          <folding>
+            <element signature="e#48#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/CourtSystem/CourtSystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/CourtSystem/CourtSystem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/HolderControlUnit/HolderControlUnit.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/HolderControlUnit/HolderControlUnit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="214" column="24" selection-start-line="214" selection-start-column="24" selection-end-line="214" selection-end-column="24" />
+          <folding>
+            <element signature="e#48#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/ChassisControlUnit/ChassisControlUnit.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syscalls.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Src/syscalls.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-968">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/ChassisControlUnit/ChassisControlUnit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+          <folding>
+            <element signature="e#48#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

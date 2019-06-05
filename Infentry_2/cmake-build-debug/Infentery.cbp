@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Infentery"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Infentery.elf">
+				<Option output="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Infentery.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F427xx"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Inc"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/User/Inc"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Motor"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Motor/C6010"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Motor/C6020"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Motor/GM6020"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Remote"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/MPU6500"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Bluetooth"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/MiniPC"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/List"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/port"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/system"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/uart"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/can"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/pwm"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/spi"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CanBusManager"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CanBusManager/CanListener"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CanBusManager/CanTxBuf"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CanBusManager/CanPort"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Arithmetic/PID"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Arithmetic/KalmanFilter"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/MotorControlSystem"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/MotorControlSystem/ChassisControlUnit"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/MotorControlSystem/HolderControlUnit"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/MotorControlSystem/ShootControlUnit"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/RemoteListener"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/AttitudeListenner"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CourtSystem"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/AutoMA"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/arm-none-eabi"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/backward"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include-fixed"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Infentery.elf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Infentery.elf/fast">
+				<Option output="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Infentery.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F427xx"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Inc"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/User/Inc"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Motor"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Motor/C6010"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Motor/C6020"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Motor/GM6020"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Remote"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/MPU6500"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Bluetooth"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/MiniPC"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/List"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/port"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/system"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/uart"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/can"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/pwm"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/spi"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CanBusManager"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CanBusManager/CanListener"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CanBusManager/CanTxBuf"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CanBusManager/CanPort"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Arithmetic/PID"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Arithmetic/KalmanFilter"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/MotorControlSystem"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/MotorControlSystem/ChassisControlUnit"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/MotorControlSystem/HolderControlUnit"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/MotorControlSystem/ShootControlUnit"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/RemoteListener"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/AttitudeListenner"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CourtSystem"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/AutoMA"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/arm-none-eabi"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/backward"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include-fixed"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Infentery.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UPLOAD">
+				<Option working_dir="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 UPLOAD"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Inc/FreeRTOSConfig.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Inc/can.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Inc/dma.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Inc/gpio.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Inc/main.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Inc/spi.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Inc/stm32f4xx_it.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Inc/tim.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Inc/usart.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Src/can.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Src/dma.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Src/freertos.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Src/gpio.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Src/main.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Src/spi.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Src/stm32f4xx_hal_timebase_tim.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Src/stm32f4xx_it.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Src/syscalls.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Src/system_stm32f4xx.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Src/tim.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Core/Src/usart.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Bluetooth/BlueTooth.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Bluetooth/BlueTooth.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/MPU6500/bsp_imu.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/MPU6500/bsp_imu.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/MPU6500/ist8310_reg.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/MPU6500/mpu6500_reg.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/MiniPC/MiniPC.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/MiniPC/MiniPC.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Motor/C6010/C6010.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Motor/C6010/C6010.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Motor/C6020/C6020.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Motor/C6020/C6020.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Motor/GM6020/GM6020.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Motor/GM6020/GM6020.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Remote/Remote.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/Remote/Remote.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Arithmetic/KalmanFilter/Kalman.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Arithmetic/KalmanFilter/Kalman.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Arithmetic/PID/PID.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Arithmetic/PID/PID.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/AttitudeListenner/AttitudeListener.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/AttitudeListenner/AttitudeListener.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/AutoMA/AutoMA.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/AutoMA/AutoMA.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CanBusManager/CanBusManger.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CanBusManager/CanBusManger.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CanBusManager/CanListener/CanListener.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CanBusManager/CanListener/CanListener.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CanBusManager/CanPort/CanPort.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CanBusManager/CanPort/CanPort.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CanBusManager/CanPort/CanPortList.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CanBusManager/CanPort/CanPortList.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CanBusManager/CanTxBuf/CanTxBuf.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CanBusManager/CanTxBuf/CanTxBuf.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CourtSystem/CourtSystem.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/CourtSystem/CourtSystem.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/MotorControlSystem/ChassisControlUnit/ChassisControlUnit.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/MotorControlSystem/ChassisControlUnit/ChassisControlUnit.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/MotorControlSystem/HolderControlUnit/HolderControlUnit.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/MotorControlSystem/HolderControlUnit/HolderControlUnit.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/MotorControlSystem/MotorControlSystem.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/MotorControlSystem/MotorControlSystem.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/MotorControlSystem/ShootControlUnit/ShootControlUnit.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/MotorControlSystem/ShootControlUnit/ShootControlUnit.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/RemoteListener/RemoteListener.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/RemoteListener/RemoteListener.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/List/Plus_List.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/List/Plus_List.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/List/node.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/List/node.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/can/can_plus.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/can/can_plus.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/port/Port.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/port/Port.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/pwm/pwm.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/pwm/pwm.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/stm32plus.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/stm32plus.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/system/System.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/system/gpio.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/system/pc.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/uart/UartList.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/uart/uart.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/uart/uart.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/Middlewares/stm32plus/uart/usartInterrupt.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/STM32F427IIHx_FLASH.ld">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/User/Inc/user.h">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/User/Src/user.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/User/Src/user_freertos.c">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/User/Src/user_interrupt.cpp">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/startup/startup_stm32f427xx.s">
+			<Option target="Infentery.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,4 @@
+/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/CMakeFiles/Infentery.elf.dir
+/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jelin/Documents/ClionProject/Robomaster/Infentry_2/cmake-build-debug/CMakeFiles/UPLOAD.dir
