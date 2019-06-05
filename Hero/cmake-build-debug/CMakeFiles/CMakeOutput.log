@@ -1,0 +1,651 @@
+The target system is: Generic - 1 - 
+The host system is: Linux - 4.15.0-50-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc (GNU Tools for Arm Embedded Processors 7-2018-q3-update) 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_34f6d/fast 
+/usr/bin/make -f CMakeFiles/cmTC_34f6d.dir/build.make CMakeFiles/cmTC_34f6d.dir/build
+make[1]: Entering directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34f6d.dir/CMakeCCompilerABI.c.obj
+/usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -v -o CMakeFiles/cmTC_34f6d.dir/CMakeCCompilerABI.c.obj   -c /home/jelin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nano.specs
+rename spec link to nano_link
+rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence
+rename spec cpp_unique_options to nano_cpp_unique_options
+COLLECT_GCC=/usr/bin/arm-none-eabi-gcc
+Target: arm-none-eabi
+Configured with: /build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/src/gcc/configure --target=arm-none-eabi --prefix=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native --libexecdir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/lib --infodir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/arm-none-eabi --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 7-2018-q3-update' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (GNU Tools for Arm Embedded Processors 7-2018-q3-update) 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_34f6d.dir/CMakeCCompilerABI.c.obj' '-c'
+ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/cc1 -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v7e-m/fpv4-sp/hard -iprefix /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/ -isysroot /usr/bin/../arm-none-eabi -D__USES_INITFINI__ /home/jelin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -auxbase-strip CMakeFiles/cmTC_34f6d.dir/CMakeCCompilerABI.c.obj -g -std=gnu99 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o /tmp/ccyC2Jry.s
+GNU C99 (GNU Tools for Arm Embedded Processors 7-2018-q3-update) version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (arm-none-eabi)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/7.3.1/include"
+ignoring nonexistent directory "/usr/bin/../arm-none-eabi/usr/local/include"
+ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/7.3.1/include-fixed"
+ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "/usr/bin/../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../arm-none-eabi/include/newlib-nano
+ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include
+ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include-fixed
+ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C99 (GNU Tools for Arm Embedded Processors 7-2018-q3-update) version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (arm-none-eabi)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: eab4a279575da7046b948b88e155bd6a
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_34f6d.dir/CMakeCCompilerABI.c.obj' '-c'
+ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/as -v -mcpu=cortex-m4 -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_34f6d.dir/CMakeCCompilerABI.c.obj /tmp/ccyC2Jry.s
+GNU assembler version 2.30.0 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 7-2018-q3-update) 2.30.0.20180329
+COMPILER_PATH=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/:/usr/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_34f6d.dir/CMakeCCompilerABI.c.obj' '-c'
+Linking C executable cmTC_34f6d
+/home/jelin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34f6d.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99   -Wl,-gc-sections,--print-memory-usage -T /home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld -v CMakeFiles/cmTC_34f6d.dir/CMakeCCompilerABI.c.obj  -o cmTC_34f6d 
+Using built-in specs.
+Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nano.specs
+rename spec link to nano_link
+rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence
+rename spec cpp_unique_options to nano_cpp_unique_options
+COLLECT_GCC=/usr/bin/arm-none-eabi-gcc
+COLLECT_LTO_WRAPPER=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper
+Target: arm-none-eabi
+Configured with: /build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/src/gcc/configure --target=arm-none-eabi --prefix=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native --libexecdir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/lib --infodir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/arm-none-eabi --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 7-2018-q3-update' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (GNU Tools for Arm Embedded Processors 7-2018-q3-update) 
+COMPILER_PATH=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/:/usr/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-T' '/home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld' '-v' '-o' 'cmTC_34f6d'
+ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/collect2 -plugin /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/liblto_plugin.so -plugin-opt=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuxu1NI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=/usr/bin/../arm-none-eabi -X -o cmTC_34f6d /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o -L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard -L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard -L/usr/bin/../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard -L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1 -L/usr/bin/../lib/gcc -L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib -L/usr/bin/../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_34f6d.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o -T /home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld
+Memory region         Used Size  Region Size  %age Used
+             RAM:        1568 B       192 KB      0.80%
+          CCMRAM:          0 GB        64 KB      0.00%
+           FLASH:          96 B         2 MB      0.00/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
+%
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-T' '/home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld' '-v' '-o' 'cmTC_34f6d'
+make[1]: Leaving directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/bin/../arm-none-eabi/include/newlib-nano]
+    add: [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include]
+    add: [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include-fixed]
+    add: [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [/usr/bin/../arm-none-eabi/include/newlib-nano] ==> [/usr/arm-none-eabi/include/newlib-nano]
+  collapse include dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include] ==> [/usr/lib/gcc/arm-none-eabi/7.3.1/include]
+  collapse include dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include-fixed] ==> [/usr/lib/gcc/arm-none-eabi/7.3.1/include-fixed]
+  collapse include dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include] ==> [/usr/arm-none-eabi/include]
+  implicit include dirs: [/usr/arm-none-eabi/include/newlib-nano;/usr/lib/gcc/arm-none-eabi/7.3.1/include;/usr/lib/gcc/arm-none-eabi/7.3.1/include-fixed;/usr/arm-none-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_34f6d/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_34f6d.dir/build.make CMakeFiles/cmTC_34f6d.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_34f6d.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -v -o CMakeFiles/cmTC_34f6d.dir/CMakeCCompilerABI.c.obj   -c /home/jelin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nano.specs]
+  ignore line: [rename spec link to nano_link]
+  ignore line: [rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence]
+  ignore line: [rename spec cpp_unique_options to nano_cpp_unique_options]
+  ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-gcc]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/src/gcc/configure --target=arm-none-eabi --prefix=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native --libexecdir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/lib --infodir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/arm-none-eabi --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 7-2018-q3-update' --with-multilib-list=rmprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (GNU Tools for Arm Embedded Processors 7-2018-q3-update) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_34f6d.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/cc1 -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v7e-m/fpv4-sp/hard -iprefix /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/ -isysroot /usr/bin/../arm-none-eabi -D__USES_INITFINI__ /home/jelin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -auxbase-strip CMakeFiles/cmTC_34f6d.dir/CMakeCCompilerABI.c.obj -g -std=gnu99 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o /tmp/ccyC2Jry.s]
+  ignore line: [GNU C99 (GNU Tools for Arm Embedded Processors 7-2018-q3-update) version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/7.3.1/include"]
+  ignore line: [ignoring nonexistent directory "/usr/bin/../arm-none-eabi/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/7.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "/usr/bin/../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/bin/../arm-none-eabi/include/newlib-nano]
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include]
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include-fixed]
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C99 (GNU Tools for Arm Embedded Processors 7-2018-q3-update) version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: eab4a279575da7046b948b88e155bd6a]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_34f6d.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/as -v -mcpu=cortex-m4 -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_34f6d.dir/CMakeCCompilerABI.c.obj /tmp/ccyC2Jry.s]
+  ignore line: [GNU assembler version 2.30.0 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 7-2018-q3-update) 2.30.0.20180329]
+  ignore line: [COMPILER_PATH=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/:/usr/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_34f6d.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [Linking C executable cmTC_34f6d]
+  ignore line: [/home/jelin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34f6d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99   -Wl,-gc-sections,--print-memory-usage -T /home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld -v CMakeFiles/cmTC_34f6d.dir/CMakeCCompilerABI.c.obj  -o cmTC_34f6d ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nano.specs]
+  ignore line: [rename spec link to nano_link]
+  ignore line: [rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence]
+  ignore line: [rename spec cpp_unique_options to nano_cpp_unique_options]
+  ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/src/gcc/configure --target=arm-none-eabi --prefix=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native --libexecdir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/lib --infodir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/arm-none-eabi --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 7-2018-q3-update' --with-multilib-list=rmprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (GNU Tools for Arm Embedded Processors 7-2018-q3-update) ]
+  ignore line: [COMPILER_PATH=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/:/usr/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-T' '/home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld' '-v' '-o' 'cmTC_34f6d']
+  link line: [ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/collect2 -plugin /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/liblto_plugin.so -plugin-opt=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuxu1NI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=/usr/bin/../arm-none-eabi -X -o cmTC_34f6d /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o -L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard -L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard -L/usr/bin/../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard -L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1 -L/usr/bin/../lib/gcc -L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib -L/usr/bin/../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_34f6d.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o -T /home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld]
+    arg [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccuxu1NI.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lg_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [--sysroot=/usr/bin/../arm-none-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_34f6d] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard] ==> dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard]
+    arg [-L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard] ==> dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard]
+    arg [-L/usr/bin/../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard] ==> dir [/usr/bin/../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard]
+    arg [-L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1] ==> dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1]
+    arg [-L/usr/bin/../lib/gcc] ==> dir [/usr/bin/../lib/gcc]
+    arg [-L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib] ==> dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib]
+    arg [-L/usr/bin/../arm-none-eabi/lib] ==> dir [/usr/bin/../arm-none-eabi/lib]
+    arg [-gc-sections] ==> ignore
+    arg [--print-memory-usage] ==> ignore
+    arg [CMakeFiles/cmTC_34f6d.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lg_nano] ==> lib [g_nano]
+    arg [-lc_nano] ==> lib [c_nano]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc_nano] ==> lib [c_nano]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc_nano] ==> lib [c_nano]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o] ==> ignore
+    arg [-T] ==> ignore
+    arg [/home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld] ==> ignore
+  collapse library dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard] ==> [/usr/lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard]
+  collapse library dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard] ==> [/usr/arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard]
+  collapse library dir [/usr/bin/../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard] ==> [/usr/arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard]
+  collapse library dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1] ==> [/usr/lib/gcc/arm-none-eabi/7.3.1]
+  collapse library dir [/usr/bin/../lib/gcc] ==> [/usr/lib/gcc]
+  collapse library dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib] ==> [/usr/arm-none-eabi/lib]
+  collapse library dir [/usr/bin/../arm-none-eabi/lib] ==> [/usr/arm-none-eabi/lib]
+  implicit libs: [gcc;g_nano;c_nano;gcc;c_nano;nosys;gcc;c_nano;nosys]
+  implicit dirs: [/usr/lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard;/usr/arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard;/usr/lib/gcc/arm-none-eabi/7.3.1;/usr/lib/gcc;/usr/arm-none-eabi/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2274a/fast 
+/usr/bin/make -f CMakeFiles/cmTC_2274a.dir/build.make CMakeFiles/cmTC_2274a.dir/build
+make[1]: Entering directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2274a.dir/feature_tests.c.obj
+/usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -std=c11 -o CMakeFiles/cmTC_2274a.dir/feature_tests.c.obj   -c /home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2274a
+/home/jelin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2274a.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99   -Wl,-gc-sections,--print-memory-usage -T /home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld  CMakeFiles/cmTC_2274a.dir/feature_tests.c.obj  -o cmTC_2274a 
+Memory region         Used Size  Region Size  %age Used
+             RAM:        1568 B       192 KB      0.80%
+          CCMRAM:          0 GB        64 KB      0.00%
+           FLASH:          96 B         2 MB      0.00/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
+%
+make[1]: Leaving directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1aec5/fast 
+/usr/bin/make -f CMakeFiles/cmTC_1aec5.dir/build.make CMakeFiles/cmTC_1aec5.dir/build
+make[1]: Entering directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1aec5.dir/feature_tests.c.obj
+/usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -std=c99 -o CMakeFiles/cmTC_1aec5.dir/feature_tests.c.obj   -c /home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1aec5
+/home/jelin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1aec5.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99   -Wl,-gc-sections,--print-memory-usage -T /home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld  CMakeFiles/cmTC_1aec5.dir/feature_tests.c.obj  -o cmTC_1aec5 
+Memory region         Used Size  Region Size  %age Used
+             RAM:        1568 B       192 KB      0.80%
+          CCMRAM:          0 GB        64 KB      0.00%
+           FLASH:          96 B         2 MB      0.00/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
+%
+make[1]: Leaving directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9309e/fast 
+/usr/bin/make -f CMakeFiles/cmTC_9309e.dir/build.make CMakeFiles/cmTC_9309e.dir/build
+make[1]: Entering directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9309e.dir/feature_tests.c.obj
+/usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -std=c90 -o CMakeFiles/cmTC_9309e.dir/feature_tests.c.obj   -c /home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9309e
+/home/jelin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9309e.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99   -Wl,-gc-sections,--print-memory-usage -T /home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld  CMakeFiles/cmTC_9309e.dir/feature_tests.c.obj  -o cmTC_9309e 
+Memory region         Used Size  Region Size  %age Used
+             RAM:        1568 B       192 KB      0.80%
+          CCMRAM:          0 GB        64 KB      0.00%
+           FLASH:          96 B         2 MB      0.00/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
+%
+make[1]: Leaving directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_db62b/fast 
+/usr/bin/make -f CMakeFiles/cmTC_db62b.dir/build.make CMakeFiles/cmTC_db62b.dir/build
+make[1]: Entering directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_db62b.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/bin/arm-none-eabi-g++    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -v -o CMakeFiles/cmTC_db62b.dir/CMakeCXXCompilerABI.cpp.obj -c /home/jelin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nano.specs
+rename spec link to nano_link
+rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence
+rename spec cpp_unique_options to nano_cpp_unique_options
+COLLECT_GCC=/usr/bin/arm-none-eabi-g++
+Target: arm-none-eabi
+Configured with: /build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/src/gcc/configure --target=arm-none-eabi --prefix=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native --libexecdir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/lib --infodir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/arm-none-eabi --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 7-2018-q3-update' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (GNU Tools for Arm Embedded Processors 7-2018-q3-update) 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_db62b.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/cc1plus -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v7e-m/fpv4-sp/hard -iprefix /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/ -isysroot /usr/bin/../arm-none-eabi -D__USES_INITFINI__ /home/jelin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -auxbase-strip CMakeFiles/cmTC_db62b.dir/CMakeCXXCompilerABI.cpp.obj -g -std=c++11 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o /tmp/cce0J3nK.s
+GNU C++11 (GNU Tools for Arm Embedded Processors 7-2018-q3-update) version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (arm-none-eabi)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1"
+ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/arm-none-eabi/thumb/v7e-m/fpv4-sp/hard"
+ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/backward"
+ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/7.3.1/include"
+ignoring nonexistent directory "/usr/bin/../arm-none-eabi/usr/local/include"
+ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/7.3.1/include-fixed"
+ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "/usr/bin/../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../arm-none-eabi/include/newlib-nano
+ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1
+ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/arm-none-eabi/thumb/v7e-m/fpv4-sp/hard
+ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/backward
+ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include
+ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include-fixed
+ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C++11 (GNU Tools for Arm Embedded Processors 7-2018-q3-update) version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (arm-none-eabi)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 5f92b2421e4565269a80964c359effe8
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_db62b.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/as -v -mcpu=cortex-m4 -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_db62b.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cce0J3nK.s
+GNU assembler version 2.30.0 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 7-2018-q3-update) 2.30.0.20180329
+COMPILER_PATH=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/:/usr/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_db62b.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+Linking CXX executable cmTC_db62b
+/home/jelin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db62b.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-g++  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl,-gc-sections,--print-memory-usage -T /home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld -v CMakeFiles/cmTC_db62b.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_db62b 
+Using built-in specs.
+Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nano.specs
+rename spec link to nano_link
+rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence
+rename spec cpp_unique_options to nano_cpp_unique_options
+COLLECT_GCC=/usr/bin/arm-none-eabi-g++
+COLLECT_LTO_WRAPPER=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper
+Target: arm-none-eabi
+Configured with: /build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/src/gcc/configure --target=arm-none-eabi --prefix=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native --libexecdir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/lib --infodir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/arm-none-eabi --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 7-2018-q3-update' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (GNU Tools for Arm Embedded Processors 7-2018-q3-update) 
+COMPILER_PATH=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/:/usr/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-T' '/home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld' '-v' '-o' 'cmTC_db62b'
+ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/collect2 -plugin /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/liblto_plugin.so -plugin-opt=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbL9YHS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=/usr/bin/../arm-none-eabi -X -o cmTC_db62b /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o -L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard -L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard -L/usr/bin/../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard -L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1 -L/usr/bin/../lib/gcc -L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib -L/usr/bin/../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_db62b.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++_nano -lm --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o -T /home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld
+Memory region         Used Size  Region Size  %age Used
+             RAM:        1568 B       192 KB      0.80%
+          CCMRAM:          0 GB        64 KB      0.00%
+           FLASH:          96 B         2 MB      0.00/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
+%
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-T' '/home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld' '-v' '-o' 'cmTC_db62b'
+make[1]: Leaving directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/bin/../arm-none-eabi/include/newlib-nano]
+    add: [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1]
+    add: [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/arm-none-eabi/thumb/v7e-m/fpv4-sp/hard]
+    add: [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/backward]
+    add: [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include]
+    add: [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include-fixed]
+    add: [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [/usr/bin/../arm-none-eabi/include/newlib-nano] ==> [/usr/arm-none-eabi/include/newlib-nano]
+  collapse include dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1] ==> [/usr/arm-none-eabi/include/c++/7.3.1]
+  collapse include dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/arm-none-eabi/thumb/v7e-m/fpv4-sp/hard] ==> [/usr/arm-none-eabi/include/c++/7.3.1/arm-none-eabi/thumb/v7e-m/fpv4-sp/hard]
+  collapse include dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/backward] ==> [/usr/arm-none-eabi/include/c++/7.3.1/backward]
+  collapse include dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include] ==> [/usr/lib/gcc/arm-none-eabi/7.3.1/include]
+  collapse include dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include-fixed] ==> [/usr/lib/gcc/arm-none-eabi/7.3.1/include-fixed]
+  collapse include dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include] ==> [/usr/arm-none-eabi/include]
+  implicit include dirs: [/usr/arm-none-eabi/include/newlib-nano;/usr/arm-none-eabi/include/c++/7.3.1;/usr/arm-none-eabi/include/c++/7.3.1/arm-none-eabi/thumb/v7e-m/fpv4-sp/hard;/usr/arm-none-eabi/include/c++/7.3.1/backward;/usr/lib/gcc/arm-none-eabi/7.3.1/include;/usr/lib/gcc/arm-none-eabi/7.3.1/include-fixed;/usr/arm-none-eabi/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_db62b/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_db62b.dir/build.make CMakeFiles/cmTC_db62b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_db62b.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/bin/arm-none-eabi-g++    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -v -o CMakeFiles/cmTC_db62b.dir/CMakeCXXCompilerABI.cpp.obj -c /home/jelin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nano.specs]
+  ignore line: [rename spec link to nano_link]
+  ignore line: [rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence]
+  ignore line: [rename spec cpp_unique_options to nano_cpp_unique_options]
+  ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-g++]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/src/gcc/configure --target=arm-none-eabi --prefix=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native --libexecdir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/lib --infodir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/arm-none-eabi --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 7-2018-q3-update' --with-multilib-list=rmprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (GNU Tools for Arm Embedded Processors 7-2018-q3-update) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_db62b.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/cc1plus -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v7e-m/fpv4-sp/hard -iprefix /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/ -isysroot /usr/bin/../arm-none-eabi -D__USES_INITFINI__ /home/jelin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -auxbase-strip CMakeFiles/cmTC_db62b.dir/CMakeCXXCompilerABI.cpp.obj -g -std=c++11 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o /tmp/cce0J3nK.s]
+  ignore line: [GNU C++11 (GNU Tools for Arm Embedded Processors 7-2018-q3-update) version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/arm-none-eabi/thumb/v7e-m/fpv4-sp/hard"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/backward"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/7.3.1/include"]
+  ignore line: [ignoring nonexistent directory "/usr/bin/../arm-none-eabi/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/7.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "/usr/bin/../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/bin/../arm-none-eabi/include/newlib-nano]
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1]
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/arm-none-eabi/thumb/v7e-m/fpv4-sp/hard]
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/backward]
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include]
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include-fixed]
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++11 (GNU Tools for Arm Embedded Processors 7-2018-q3-update) version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 5f92b2421e4565269a80964c359effe8]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_db62b.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/as -v -mcpu=cortex-m4 -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_db62b.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cce0J3nK.s]
+  ignore line: [GNU assembler version 2.30.0 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 7-2018-q3-update) 2.30.0.20180329]
+  ignore line: [COMPILER_PATH=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/:/usr/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_db62b.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [Linking CXX executable cmTC_db62b]
+  ignore line: [/home/jelin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db62b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-none-eabi-g++  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl,-gc-sections,--print-memory-usage -T /home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld -v CMakeFiles/cmTC_db62b.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_db62b ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nano.specs]
+  ignore line: [rename spec link to nano_link]
+  ignore line: [rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence]
+  ignore line: [rename spec cpp_unique_options to nano_cpp_unique_options]
+  ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/src/gcc/configure --target=arm-none-eabi --prefix=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native --libexecdir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/lib --infodir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gcc-arm-none-eabi-2DWmz3/gcc-arm-none-eabi-7-2018q2/install-native/arm-none-eabi --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 7-2018-q3-update' --with-multilib-list=rmprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (GNU Tools for Arm Embedded Processors 7-2018-q3-update) ]
+  ignore line: [COMPILER_PATH=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/:/usr/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-T' '/home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld' '-v' '-o' 'cmTC_db62b']
+  link line: [ /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/collect2 -plugin /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/liblto_plugin.so -plugin-opt=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbL9YHS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=/usr/bin/../arm-none-eabi -X -o cmTC_db62b /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o -L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard -L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard -L/usr/bin/../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard -L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1 -L/usr/bin/../lib/gcc -L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib -L/usr/bin/../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_db62b.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++_nano -lm --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o /usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o -T /home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld]
+    arg [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccbL9YHS.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lg_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [--sysroot=/usr/bin/../arm-none-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_db62b] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard] ==> dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard]
+    arg [-L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard] ==> dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard]
+    arg [-L/usr/bin/../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard] ==> dir [/usr/bin/../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard]
+    arg [-L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1] ==> dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1]
+    arg [-L/usr/bin/../lib/gcc] ==> dir [/usr/bin/../lib/gcc]
+    arg [-L/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib] ==> dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib]
+    arg [-L/usr/bin/../arm-none-eabi/lib] ==> dir [/usr/bin/../arm-none-eabi/lib]
+    arg [-gc-sections] ==> ignore
+    arg [--print-memory-usage] ==> ignore
+    arg [CMakeFiles/cmTC_db62b.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lstdc++_nano] ==> lib [stdc++_nano]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lg_nano] ==> lib [g_nano]
+    arg [-lc_nano] ==> lib [c_nano]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc_nano] ==> lib [c_nano]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc_nano] ==> lib [c_nano]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o] ==> ignore
+    arg [-T] ==> ignore
+    arg [/home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld] ==> ignore
+  collapse library dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard] ==> [/usr/lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard]
+  collapse library dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard] ==> [/usr/arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard]
+  collapse library dir [/usr/bin/../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard] ==> [/usr/arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard]
+  collapse library dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1] ==> [/usr/lib/gcc/arm-none-eabi/7.3.1]
+  collapse library dir [/usr/bin/../lib/gcc] ==> [/usr/lib/gcc]
+  collapse library dir [/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib] ==> [/usr/arm-none-eabi/lib]
+  collapse library dir [/usr/bin/../arm-none-eabi/lib] ==> [/usr/arm-none-eabi/lib]
+  implicit libs: [stdc++_nano;m;gcc;g_nano;c_nano;gcc;c_nano;nosys;gcc;c_nano;nosys]
+  implicit dirs: [/usr/lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard;/usr/arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard;/usr/lib/gcc/arm-none-eabi/7.3.1;/usr/lib/gcc;/usr/arm-none-eabi/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_970a0/fast 
+/usr/bin/make -f CMakeFiles/cmTC_970a0.dir/build.make CMakeFiles/cmTC_970a0.dir/build
+make[1]: Entering directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_970a0.dir/feature_tests.cxx.obj
+/usr/bin/arm-none-eabi-g++    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++1z -o CMakeFiles/cmTC_970a0.dir/feature_tests.cxx.obj -c /home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_970a0
+/home/jelin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_970a0.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-g++  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl,-gc-sections,--print-memory-usage -T /home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld  CMakeFiles/cmTC_970a0.dir/feature_tests.cxx.obj  -o cmTC_970a0 
+Memory region         Used Size  Region Size  %age Used
+             RAM:        1568 B       192 KB      0.80%
+          CCMRAM:          0 GB        64 KB      0.00%
+           FLASH:          96 B         2 MB      0.00/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
+%
+make[1]: Leaving directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e9ad5/fast 
+/usr/bin/make -f CMakeFiles/cmTC_e9ad5.dir/build.make CMakeFiles/cmTC_e9ad5.dir/build
+make[1]: Entering directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e9ad5.dir/feature_tests.cxx.obj
+/usr/bin/arm-none-eabi-g++    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++14 -o CMakeFiles/cmTC_e9ad5.dir/feature_tests.cxx.obj -c /home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e9ad5
+/home/jelin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9ad5.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-g++  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl,-gc-sections,--print-memory-usage -T /home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld  CMakeFiles/cmTC_e9ad5.dir/feature_tests.cxx.obj  -o cmTC_e9ad5 
+Memory region         Used Size  Region Size  %age Used
+             RAM:        1568 B       192 KB      0.80%
+          CCMRAM:          0 GB        64 KB      0.00%
+           FLASH:          96 B         2 MB      0.00/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
+%
+make[1]: Leaving directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c4ad4/fast 
+/usr/bin/make -f CMakeFiles/cmTC_c4ad4.dir/build.make CMakeFiles/cmTC_c4ad4.dir/build
+make[1]: Entering directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c4ad4.dir/feature_tests.cxx.obj
+/usr/bin/arm-none-eabi-g++    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++11 -o CMakeFiles/cmTC_c4ad4.dir/feature_tests.cxx.obj -c /home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c4ad4
+/home/jelin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4ad4.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-g++  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl,-gc-sections,--print-memory-usage -T /home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld  CMakeFiles/cmTC_c4ad4.dir/feature_tests.cxx.obj  -o cmTC_c4ad4 
+Memory region         Used Size  Region Size  %age Used
+             RAM:        1568 B       192 KB      0.80%
+          CCMRAM:          0 GB        64 KB      0.00%
+           FLASH:          96 B         2 MB      0.00/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
+%
+make[1]: Leaving directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_852a3/fast 
+/usr/bin/make -f CMakeFiles/cmTC_852a3.dir/build.make CMakeFiles/cmTC_852a3.dir/build
+make[1]: Entering directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_852a3.dir/feature_tests.cxx.obj
+/usr/bin/arm-none-eabi-g++    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++98 -o CMakeFiles/cmTC_852a3.dir/feature_tests.cxx.obj -c /home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_852a3
+/home/jelin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_852a3.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-g++  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl,-gc-sections,--print-memory-usage -T /home/jelin/Documents/ClionProject/Robomaster/Hero/STM32F427IIHx_FLASH.ld  CMakeFiles/cmTC_852a3.dir/feature_tests.cxx.obj  -o cmTC_852a3 
+Memory region         Used Size  Region Size  %age Used
+             RAM:        1568 B       192 KB      0.80%
+          CCMRAM:          0 GB        64 KB      0.00%
+           FLASH:          96 B         2 MB      0.00/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
+%
+make[1]: Leaving directory '/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+

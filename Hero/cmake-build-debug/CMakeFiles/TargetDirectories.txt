@@ -1,0 +1,4 @@
+/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/Hero.elf.dir
+/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jelin/Documents/ClionProject/Robomaster/Hero/cmake-build-debug/CMakeFiles/UPLOAD.dir

@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Engineering"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Engineering.elf">
+				<Option output="/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Engineering.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-D__FPU_PRESENT=1"/>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F427xx"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Inc"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/User"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/User/Inc"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Motor"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Motor/C6010"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Motor/C6020"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Motor/GM6020"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Remote"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/MPU6500"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Bluetooth"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/List"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/port"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/system"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/uart"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/can"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/pwm"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/spi"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CanBusManager"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CanBusManager/CanListener"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CanBusManager/CanTxBuf"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CanBusManager/CanPort"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Arithmetic/PID"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Arithmetic/KalmanFilter"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/MotorControlSystem"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/MotorControlSystem/ChassisControlUnit"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/MotorControlSystem/UpIslandControlUnit"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/MotorControlSystem/TakeShotUnit"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/RemoteListener"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/AttitudeListenner"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CourtSystem"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/arm-none-eabi"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/backward"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include-fixed"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 Engineering.elf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Engineering.elf/fast">
+				<Option output="/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Engineering.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-D__FPU_PRESENT=1"/>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F427xx"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Inc"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/User"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/User/Inc"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Motor"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Motor/C6010"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Motor/C6020"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Motor/GM6020"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Remote"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/MPU6500"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Bluetooth"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/List"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/port"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/system"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/uart"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/can"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/pwm"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/spi"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CanBusManager"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CanBusManager/CanListener"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CanBusManager/CanTxBuf"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CanBusManager/CanPort"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Arithmetic/PID"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Arithmetic/KalmanFilter"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/MotorControlSystem"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/MotorControlSystem/ChassisControlUnit"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/MotorControlSystem/UpIslandControlUnit"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/MotorControlSystem/TakeShotUnit"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/RemoteListener"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/AttitudeListenner"/>
+					<Add directory="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CourtSystem"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/arm-none-eabi"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/backward"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/include-fixed"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 Engineering.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UPLOAD">
+				<Option working_dir="/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 UPLOAD"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jelin/Documents/ClionProject/Robomaster/Engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Inc/FreeRTOSConfig.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Inc/can.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Inc/dma.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Inc/gpio.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Inc/main.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Inc/spi.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Inc/stm32f4xx_it.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Inc/tim.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Inc/usart.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Src/can.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Src/dma.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Src/freertos.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Src/gpio.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Src/main.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Src/spi.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Src/stm32f4xx_hal_timebase_tim.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Src/stm32f4xx_it.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Src/syscalls.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Src/system_stm32f4xx.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Src/tim.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Core/Src/usart.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/MPU6500/bsp_imu.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/MPU6500/bsp_imu.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/MPU6500/ist8310_reg.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/MPU6500/mpu6500_reg.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Motor/C6010/C6010.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Motor/C6010/C6010.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Motor/C6020/C6020.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Motor/C6020/C6020.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Motor/GM6020/GM6020.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Motor/GM6020/GM6020.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Remote/Remote.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/Remote/Remote.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Arithmetic/KalmanFilter/Kalman.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Arithmetic/KalmanFilter/Kalman.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Arithmetic/PID/PID.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Arithmetic/PID/PID.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/AttitudeListenner/AttitudeListener.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/AttitudeListenner/AttitudeListener.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CanBusManager/CanBusManger.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CanBusManager/CanBusManger.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CanBusManager/CanListener/CanListener.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CanBusManager/CanListener/CanListener.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CanBusManager/CanPort/CanPort.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CanBusManager/CanPort/CanPort.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CanBusManager/CanPort/CanPortList.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CanBusManager/CanPort/CanPortList.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CanBusManager/CanTxBuf/CanTxBuf.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CanBusManager/CanTxBuf/CanTxBuf.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CourtSystem/CourtSystem.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/CourtSystem/CourtSystem.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/MotorControlSystem/ChassisControlUnit/ChassisControlUnit.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/MotorControlSystem/ChassisControlUnit/ChassisControlUnit.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/MotorControlSystem/MotorControlSystem.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/MotorControlSystem/MotorControlSystem.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/MotorControlSystem/TakeShotUnit/TakeShotUnit.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/MotorControlSystem/TakeShotUnit/TakeShotUnit.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/MotorControlSystem/UpIslandControlUnit/UpIslandControlUnit.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/MotorControlSystem/UpIslandControlUnit/UpIslandControlUnit.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/RemoteListener/RemoteListener.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/RemoteListener/RemoteListener.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/List/Plus_List.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/List/Plus_List.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/List/node.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/List/node.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/can/can_plus.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/can/can_plus.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/port/Port.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/port/Port.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/pwm/pwm.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/pwm/pwm.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/stm32plus.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/stm32plus.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/system/System.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/system/gpio.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/system/pc.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/uart/UartList.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/uart/uart.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/uart/uart.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/Middlewares/stm32plus/uart/usartInterrupt.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/STM32F427IIHx_FLASH.ld">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/User/Inc/user.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/User/MyThread.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/User/MyThread.h">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/User/Src/user.cpp">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/startup/startup_stm32f427xx.s">
+			<Option target="Engineering.elf"/>
+		</Unit>
+		<Unit filename="/home/jelin/Documents/ClionProject/Robomaster/Engineering/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

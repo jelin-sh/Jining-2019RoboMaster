@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Hero" targetName="Hero.elf" />
+      <config projectName="Hero" targetName="UPLOAD" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7657ec8a-5f63-43fb-8f9f-ec7c99f62cba" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="clangWarnings" value="-Wno-unused-variable,-Werror=implicit-function-declaration,-Wshadow,-Wno-shadow-field-in-constructor-modified,-Wno-shadow-ivar,-Wno-writable-strings" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FavoritesManager">
+    <favorites_list name="Hero" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/ChassisControlUnit/ChassisControlUnit.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="118" column="31" lean-forward="true" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
+              <folding>
+                <element signature="e#48#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/ShootControlUnit/ShootControlUnit.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding>
+                <element signature="e#49#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/ChassisControlUnit/ChassisControlUnit.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/HolderControlUnit/HolderControlUnit.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="211" column="2" selection-start-line="211" selection-start-column="2" selection-end-line="211" selection-end-column="2" />
+              <folding>
+                <element signature="e#48#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" selection-start-line="6" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/MotorControlSystem.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>send data err</find>
+      <find>shootSpeed1</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Inc/main.h" />
+        <option value="$PROJECT_DIR$/User/Inc/user.h" />
+        <option value="$PROJECT_DIR$/User/Src/user.c" />
+        <option value="$PROJECT_DIR$/Middlewares/stm32plus/Thread/Thread.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/stm32plus/Thread/Thread.h" />
+        <option value="$PROJECT_DIR$/Src/stm32f4xx_it.c" />
+        <option value="$PROJECT_DIR$/Middlewares/stm32plus/Thread/MyThread.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/stm32plus/Thread/MyThread.h" />
+        <option value="$PROJECT_DIR$/Middlewares/stm32plus/Thread/MyTask.h" />
+        <option value="$PROJECT_DIR$/Middlewares/stm32plus/Thread/MyTask.cpp" />
+        <option value="$PROJECT_DIR$/Src/freertos.c" />
+        <option value="$PROJECT_DIR$/User/MyThread.h" />
+        <option value="$PROJECT_DIR$/User/MyThread.cpp" />
+        <option value="$PROJECT_DIR$/User/Src/user_freertos.c" />
+        <option value="$PROJECT_DIR$/Src/freertos.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists_template.txt" />
+        <option value="$PROJECT_DIR$/Src/usart.c" />
+        <option value="$PROJECT_DIR$/Src/tim.c" />
+        <option value="$PROJECT_DIR$/Middlewares/CanBusManager/CanPort/CanPort.h" />
+        <option value="$PROJECT_DIR$/Middlewares/CanBusManager/CanPort/CanPort.cpp" />
+        <option value="$PROJECT_DIR$/Drivers/Remote/Remote.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/stm32plus/can/can_plus.h" />
+        <option value="$PROJECT_DIR$/Src/main.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/stm32plus/can/can_plus.cpp" />
+        <option value="$PROJECT_DIR$/Inc/can.h" />
+        <option value="$PROJECT_DIR$/Middlewares/CanBusManager/CanBusManger.h" />
+        <option value="$PROJECT_DIR$/Middlewares/AttitudeListenner/AttitudeListener.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/RemoteListener/RemoteListener.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/CanBusManager/CanBusManger.cpp" />
+        <option value="$PROJECT_DIR$/Src/can.c" />
+        <option value="$PROJECT_DIR$/Core/Src/freertos.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Core/Inc/can.h" />
+        <option value="$PROJECT_DIR$/Core/Src/can.c" />
+        <option value="$PROJECT_DIR$/Core/Src/main.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/MotorControlSystem/HolderControlUnit/HolderControlUnit.h" />
+        <option value="$PROJECT_DIR$/Core/Src/tim.c" />
+        <option value="$PROJECT_DIR$/Middlewares/MotorControlSystem/ShootControlUnit/ShootControlUnit.h" />
+        <option value="$PROJECT_DIR$/Drivers/Motor/C6020/C6020.h" />
+        <option value="$PROJECT_DIR$/Drivers/Motor/C6020/C6020.cpp" />
+        <option value="$PROJECT_DIR$/User/Src/user.cpp" />
+        <option value="$PROJECT_DIR$/Core/Src/gpio.c" />
+        <option value="$PROJECT_DIR$/Middlewares/MotorControlSystem/ChassisControlUnit/ChassisControlUnit.h" />
+        <option value="$PROJECT_DIR$/Middlewares/MotorControlSystem/MotorControlSystem.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/MotorControlSystem/HolderControlUnit/HolderControlUnit.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/MotorControlSystem/ChassisControlUnit/ChassisControlUnit.cpp" />
+        <option value="$PROJECT_DIR$/Middlewares/MotorControlSystem/ShootControlUnit/ShootControlUnit.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="29" />
+    <option name="width" value="1366" />
+    <option name="height" value="739" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Hero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hero" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hero" type="462c0819:PsiDirectoryNode" />
+              <item name="Core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hero" type="462c0819:PsiDirectoryNode" />
+              <item name="Drivers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hero" type="462c0819:PsiDirectoryNode" />
+              <item name="Drivers" type="462c0819:PsiDirectoryNode" />
+              <item name="MPU6500" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hero" type="462c0819:PsiDirectoryNode" />
+              <item name="Middlewares" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hero" type="462c0819:PsiDirectoryNode" />
+              <item name="Middlewares" type="462c0819:PsiDirectoryNode" />
+              <item name="MotorControlSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hero" type="462c0819:PsiDirectoryNode" />
+              <item name="Middlewares" type="462c0819:PsiDirectoryNode" />
+              <item name="MotorControlSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ChassisControlUnit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hero" type="462c0819:PsiDirectoryNode" />
+              <item name="Middlewares" type="462c0819:PsiDirectoryNode" />
+              <item name="MotorControlSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="HolderControlUnit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hero" type="462c0819:PsiDirectoryNode" />
+              <item name="Middlewares" type="462c0819:PsiDirectoryNode" />
+              <item name="MotorControlSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ShootControlUnit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hero" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hero" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+              <item name="Src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.overridden" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Robot_Hero" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Drivers" />
+      <recent name="$PROJECT_DIR$/Middlewares" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD Hero">
+    <configuration name="Hero.elf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Hero" TARGET_NAME="Hero.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Hero" RUN_TARGET_NAME="Hero.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UPLOAD" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Hero" TARGET_NAME="UPLOAD" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Hero.elf" />
+      <item itemvalue="CMake Application.UPLOAD" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD Hero" />
+    </list>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",INHERITORS_AND_CATEGORIES" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7657ec8a-5f63-43fb-8f9f-ec7c99f62cba" name="Default Changelist" comment="" />
+      <created>1557580794784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557580794784</updated>
+      <workItem from="1557580805866" duration="1567000" />
+      <workItem from="1557583857284" duration="562000" />
+      <workItem from="1557584436340" duration="460000" />
+      <workItem from="1557585119610" duration="388000" />
+      <workItem from="1557585738850" duration="3190000" />
+      <workItem from="1557592399176" duration="2840000" />
+      <workItem from="1557629296876" duration="2351000" />
+      <workItem from="1557643341626" duration="137000" />
+      <workItem from="1557647284828" duration="705000" />
+      <workItem from="1557648061986" duration="56000" />
+      <workItem from="1557648159518" duration="8139000" />
+      <workItem from="1557754247188" duration="17154000" />
+      <workItem from="1557819286701" duration="255000" />
+      <workItem from="1557985424726" duration="112000" />
+      <workItem from="1558192847695" duration="1455000" />
+      <workItem from="1558470159416" duration="1323000" />
+      <workItem from="1558472602261" duration="9105000" />
+      <workItem from="1558543866626" duration="5991000" />
+      <workItem from="1558592717149" duration="1018000" />
+      <workItem from="1558594480662" duration="581000" />
+      <workItem from="1558595267463" duration="23000" />
+      <workItem from="1558596541433" duration="6930000" />
+      <workItem from="1558627546917" duration="134000" />
+      <workItem from="1558635574631" duration="31000" />
+      <workItem from="1558947984073" duration="428000" />
+      <workItem from="1558948446901" duration="3539000" />
+      <workItem from="1558957674404" duration="1463000" />
+      <workItem from="1558972334494" duration="248000" />
+      <workItem from="1559004484330" duration="496000" />
+      <workItem from="1559006899804" duration="1587000" />
+      <workItem from="1559008709187" duration="72000" />
+      <workItem from="1559010749286" duration="4254000" />
+      <workItem from="1559022445582" duration="425000" />
+      <workItem from="1559024319255" duration="19000" />
+      <workItem from="1559037338367" duration="782000" />
+      <workItem from="1559044082950" duration="287000" />
+      <workItem from="1559088366111" duration="962000" />
+      <workItem from="1559090368149" duration="24000" />
+      <workItem from="1559091787855" duration="1450000" />
+      <workItem from="1559107213121" duration="64000" />
+      <workItem from="1559111118963" duration="881000" />
+      <workItem from="1559126172691" duration="1629000" />
+      <workItem from="1559201265605" duration="360000" />
+      <workItem from="1559262625727" duration="5417000" />
+      <workItem from="1559280747762" duration="643000" />
+      <workItem from="1559304613558" duration="612000" />
+      <workItem from="1559345118677" duration="41000" />
+      <workItem from="1559346240770" duration="2692000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="92882000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="29" width="1366" height="739" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48232323" visible="true" weight="0.26060605" />
+      <window_info id="Structure" order="1" sideWeight="0.5176768" side_tool="true" weight="0.31742424" />
+      <window_info id="Favorites" order="2" sideWeight="0.501634" side_tool="true" weight="0.2659091" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3529412" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32954547" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48232323" visible="true" weight="0.24545455" />
+      <window_info id="Structure" order="1" sideWeight="0.5176768" side_tool="true" weight="0.31742424" />
+      <window_info id="Favorites" order="2" sideWeight="0.501634" side_tool="true" weight="0.2659091" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3529412" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32954547" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Inc/tim.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/tim.c" />
+    <entry file="file://$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="390" column="8" selection-start-line="390" selection-start-column="8" selection-end-line="390" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/Arithmetic/KalmanFilter/Kalman.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/freertos.cpp" />
+    <entry file="file://$PROJECT_DIR$/Src/spi.c" />
+    <entry file="file://$PROJECT_DIR$/Src/gpio.c" />
+    <entry file="file://$PROJECT_DIR$/Src/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists_template.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1536">
+          <caret line="64" selection-start-line="39" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inc/can.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="43" selection-start-line="43" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Src/user_freertos.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/can.c" />
+    <entry file="file://$PROJECT_DIR$/Middlewares/CanBusManager/CanBusManger.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/CanBusManager/CanPort/CanPortList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/CanBusManager/CanTxBuf/CanTxBuf.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/AttitudeListenner/AttitudeListener.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+          <folding>
+            <element signature="e#49#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Src/freertos.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="84" column="29" lean-forward="true" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/stm32plus/can/can_plus.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Inc/can.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hero.ioc">
+      <provider selected="true" editor-type-id="IocFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drivers/Remote/Remote.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/startup/startup_stm32f427xx.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/RemoteListener/RemoteListener.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="108" column="14" selection-start-line="108" selection-start-column="14" selection-end-line="108" selection-end-column="14" />
+          <folding>
+            <element signature="e#853#870#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Src/usart.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="108" column="54" selection-start-line="108" selection-start-column="54" selection-end-line="108" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Src/can.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="82" column="3" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="3472" selection-start-line="3472" selection-end-line="3472" />
+          <folding>
+            <element signature="e#1301#1320#0" expanded="true" />
+            <element signature="e#1618#1639#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="1570" selection-start-line="1570" selection-end-line="1570" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Src/stm32f4xx_it.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="1226" selection-start-line="1226" selection-end-line="1226" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="325" selection-start-line="325" selection-end-line="325" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/stm32plus/List/Plus_List.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/CanBusManager/CanPort/CanPort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Src/tim.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/CanBusManager/CanBusManger.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="2669" selection-start-line="2669" selection-end-line="2669" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/ShootControlUnit/ShootControlUnit.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/HolderControlUnit/HolderControlUnit.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drivers/Motor/C6020/C6020.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drivers/Motor/C6020/C6020.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#48#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Src/user.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="e#77#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Src/gpio.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drivers/MPU6500/bsp_imu.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1344">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drivers/MPU6500/bsp_imu.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="359" column="8" lean-forward="true" selection-start-line="359" selection-start-column="8" selection-end-line="359" selection-end-column="8" />
+          <folding>
+            <element signature="e#15034#15124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/MotorControlSystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/ChassisControlUnit/ChassisControlUnit.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/HolderControlUnit/HolderControlUnit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="211" column="2" selection-start-line="211" selection-start-column="2" selection-end-line="211" selection-end-column="2" />
+          <folding>
+            <element signature="e#48#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/ChassisControlUnit/ChassisControlUnit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="118" column="31" lean-forward="true" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
+          <folding>
+            <element signature="e#48#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Middlewares/MotorControlSystem/ShootControlUnit/ShootControlUnit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="e#49#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
