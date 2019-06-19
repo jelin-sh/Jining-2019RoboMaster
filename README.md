@@ -14,7 +14,7 @@
 >Git 是用于 Linux内核开发的版本控制工具。与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持（wingeddevil注：这得分是用什么样的服务端，使用http协议或者git协议等不太一样。并且在push和pull的时候和服务器端还是有交互的。），使源代码的发布和交流极其方便。 Git 的速度很快，这对于诸如 Linux kernel 这样的大项目来说自然很重要。 Git 最为出色的是它的合并跟踪（merge tracing）能力。
 
 网上的Git教程很多， 我推荐廖雪峰的这一篇教程：https://www.liaoxuefeng.com/wiki/896043488029600。
-
+**********
 ### 目录结构
 将下载好的源代码解压后， 可以得到五个文件夹， 这五个文件夹对应着五种机器人兵种，分别是：
 
@@ -33,7 +33,11 @@
 |.idea|Jetbrains公司旗下IDE工程的标识，里面包含工程信息，是一个隐藏文件夹|
 |Core|STM32芯片底层程序，包含各种芯片外设的配置程序|
 |Drivers|机器人底层驱动程序，包含bsp,电机等驱动程序|
-|Middlewares|机器人中间层程序，包含FreeRTOS Kernel、stm32plus、电机控制系统、CAN总线监听器、姿态监听器、遥控信息监听器以及|
-**********
+|Middlewares|机器人中间层程序，包含FreeRTOS Kernel、stm32plus、电机控制系统、CAN总线监听器、姿态监听器、遥控信息监听器、裁判系统、自瞄、算法|
+|User|机器人应用层程序，主要完成中间层的配置工作|
+|cmake-build-debug|CMake生成目录|
+|startup|包含stm32启动文件|
+
+
 
 
